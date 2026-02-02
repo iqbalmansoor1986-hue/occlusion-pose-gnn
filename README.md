@@ -40,6 +40,7 @@ Given an input person crop \( I \), the pipeline performs:
 ## Training Objective
 
 The model is trained using a composite loss:
+$$
 \[
 \mathcal{L}_{\text{total}} =
 \mathcal{L}_{\text{hm}} +
@@ -48,16 +49,18 @@ The model is trained using a composite loss:
 \lambda_2 \mathcal{L}_{\text{angle}} +
 \lambda_3 \mathcal{L}_{\text{gnn}}
 \]
+$$
 
 Where:
-- \( \mathcal{L}_{\text{hm}} \): heatmap regression loss
-- \( \mathcal{L}_{\text{vis}} \): visibility prediction loss (BCEWithLogits)
-- \( \mathcal{L}_{\text{gnn}} \): coordinate regression loss on visible joints
-- \( \mathcal{L}_{\text{bone}} \): bone-length consistency regularizer
-- \( \mathcal{L}_{\text{angle}} \): joint-angle feasibility regularizer
+- $$\( \mathcal{L}_{\text{hm}} \)$$: heatmap regression loss
+- $$\( \mathcal{L}_{\text{vis}} \)$$: visibility prediction loss (BCEWithLogits)
+- $$\( \mathcal{L}_{\text{gnn}} \)$$: coordinate regression loss on visible joints
+- $$\( \mathcal{L}_{\text{bone}} \)$$: bone-length consistency regularizer
+- $$\( \mathcal{L}_{\text{angle}} \)$$: joint-angle feasibility regularizer
+$$
 
 Default weights (as used in the notebook):
-- \( \lambda_1 = 0.4 \), \( \lambda_2 = 0.2 \), \( \lambda_3 = 1.0 \)
+- $$\( \lambda_1 = 0.4 \), \( \lambda_2 = 0.2 \), \( \lambda_3 = 1.0 \)$$
 
 ---
 
