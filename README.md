@@ -40,14 +40,21 @@ Given an input person crop \( I \), the pipeline performs:
 ## Training Objective
 
 The model is trained using a composite loss:
-\[
-$$\mathcal{L}_{\text{total}}$$ =
-$$\mathcal{L}_{\text{hm}} +
-\mathcal{L}_{\text{vis}} +
-\lambda_1 \mathcal{L}_{\text{bone}} +
-\lambda_2 \mathcal{L}_{\text{angle}} +
-\lambda_3 \mathcal{L}_{\text{gnn}}$$
-\]
+
+$$
+\mathcal{L}_{\text{total}}
+=
+\mathcal{L}_{\text{hm}}
++
+\mathcal{L}_{\text{vis}}
++
+\lambda_1 \mathcal{L}_{\text{bone}}
++
+\lambda_2 \mathcal{L}_{\text{angle}}
++
+\lambda_3 \mathcal{L}_{\text{gnn}}
+$$
+
 
 
 Where:
