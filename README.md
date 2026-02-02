@@ -1,4 +1,4 @@
-# Occlusion-Robust Human Pose Estimation with Graph-Based Refinement (COCO)
+# Occlusion-Robust Human Pose Estimation with Graph-Based Refinement
 
 This repository provides a **from-scratch PyTorch implementation** of an occlusion-robust 2D human pose estimation pipeline that formulates pose inference under partial visibility as a **structured restoration** problem over a human-body graph.
 
