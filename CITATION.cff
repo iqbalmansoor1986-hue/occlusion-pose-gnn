@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite it."
-title: "Occlusion-Robust Human Pose Estimation with Graph-Based Refinement (COCO)"
+title: "Occlusion-Robust Human Pose Estimation with Graph-Based Refinement"
 authors:
   - family-names: "Iqbal"
     given-names: "Mansoor"
