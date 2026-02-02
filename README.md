@@ -41,8 +41,7 @@ Given an input person crop \( I \), the pipeline performs:
 
 The model is trained using a composite loss:
 
-$$
-\mathcal{L}_{\text{total}}
+$$\mathcal{L}_{\text{total}}
 =
 \mathcal{L}_{\text{hm}}
 +
@@ -52,8 +51,7 @@ $$
 +
 \lambda_2 \mathcal{L}_{\text{angle}}
 +
-\lambda_3 \mathcal{L}_{\text{gnn}}
-$$
+\lambda_3 \mathcal{L}_{\text{gnn}}$$
 
 
 
