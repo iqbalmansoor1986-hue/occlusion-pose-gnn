@@ -39,7 +39,7 @@ Given an input person crop \( I \), the pipeline performs:
 
 ## Training Objective
 
-\mathcal{L}_{total}=\mathcal{L}_{hm}+\mathcal{L}_{vis}+\lambda_1\mathcal{L}_{bone}+\lambda_2\mathcal{L}_{angle}+\lambda_3\mathcal{L}_{gnn}
+
 
 
 
@@ -49,7 +49,6 @@ Where:
 - $$\( \mathcal{L}_{\text{gnn}} \)$$: coordinate regression loss on visible joints
 - $$\( \mathcal{L}_{\text{bone}} \)$$: bone-length consistency regularizer
 - $$\( \mathcal{L}_{\text{angle}} \)$$: joint-angle feasibility regularizer
-$$
 
 Default weights (as used in the notebook):
 - $$\( \lambda_1 = 0.4 \), \( \lambda_2 = 0.2 \), \( \lambda_3 = 1.0 \)$$
