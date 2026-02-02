@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it."
+title: "Occlusion-Robust Human Pose Estimation with Graph-Based Refinement (COCO)"
+authors:
+  - family-names: "Iqbal"
+    given-names: "Mansoor"
+repository-code: "https://github.com/iqbalmansoor1986-hue/occlusion-pose-gnn"
+type: software
+version: 1.0.0
+date-released: 2026-02-02
+keywords:
+  - human pose estimation
+  - occlusion
+  - graph neural network
+  - COCO
+  - PyTorch
+license: "MIT"
