@@ -28,7 +28,7 @@ Given an input person crop \( I \), the pipeline performs:
    - The human skeleton is modeled as a graph \( G=(V,E) \) with joints as nodes and anatomical connections as edges.
    - Node embeddings combine position, visibility, and local appearance:
      \[
-     h_i^{(0)} = [\tilde{k}_i \;\Vert\; \hat{v}_i \;\Vert\; f_i]
+     $$h_i^{(0)} = [\tilde{k}_i \;\Vert\; \hat{v}_i \;\Vert\; f_i]$$
      \]
    - A multi-layer GNN performs message passing to infer occluded joints from visible, anatomically linked evidence.
 
@@ -41,8 +41,8 @@ Given an input person crop \( I \), the pipeline performs:
 
 The model is trained using a composite loss:
 \[
-$$\mathcal{L}_{\text{total}} =
-\mathcal{L}_{\text{hm}} +
+$$\mathcal{L}_{\text{total}}$$ =
+$$\mathcal{L}_{\text{hm}} +
 \mathcal{L}_{\text{vis}} +
 \lambda_1 \mathcal{L}_{\text{bone}} +
 \lambda_2 \mathcal{L}_{\text{angle}} +
