@@ -57,9 +57,11 @@ Default weights (as used in the notebook):
 
 ## Dataset
 
-This repository uses the **COCO 2017 Keypoints** dataset:
-- Training: **train2017** + `person_keypoints_train2017.json`
-- Validation: **val2017** + `person_keypoints_val2017.json`
+This repository uses the following datasets:
+- COCO Keypoints dataset
+- MPII dataset`
+- OCHuman
+- CrowdPose
 
 The notebook includes download and extraction commands using `curl` (with SSL workaround where needed).
 
