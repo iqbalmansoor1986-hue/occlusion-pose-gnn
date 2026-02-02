@@ -39,7 +39,7 @@ Given an input person crop \( I \), the pipeline performs:
 
 ## Training Objective
 
-Total loss = heatmap loss + visibility loss + λ1(bone-length loss) + λ2(angle feasibility loss) + λ3*(GNN
+Total loss = heatmap loss + visibility loss + λ1(bone-length loss) + λ2(angle feasibility loss) + λ3*(GNN)
 
 
 
